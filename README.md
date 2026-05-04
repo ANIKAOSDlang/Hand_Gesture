@@ -18,6 +18,10 @@ This project uses **MediaPipe HandLandmarker** to detect 21 hand landmarks and c
 - 📖 Built-in ASL reference guide panel
 - 🔄 Smooth detection (reduces flickering)
 - 📱 Responsive UI for different screen sizes
+- 🌙 Auto low-light brightness boost
+- 🎨 7 background color presets (with tint strength control)
+- ⚙️ Settings panel for real-time customization
+- 🖌️ Rounded, modern UI with translucent panels
 
 ---
 
@@ -59,7 +63,38 @@ python hand_gesture.py
 | Key | Action |
 |-----|--------|
 | `r` | Toggle ASL reference guide panel |
+| `s` | Toggle settings panel |
+| `b` | Toggle auto low-light boost |
+| `[` | Decrease manual brightness gain |
+| `]` | Increase manual brightness gain |
+| `-` | Decrease background tint strength |
+| `+` | Increase background tint strength |
+| `1`–`7` | Select background color preset |
 | `q` | Quit the application |
+
+---
+
+## 🎨 Background Color Presets
+
+| Key | Preset | Description |
+|-----|--------|-------------|
+| `1` | Off | No background tint |
+| `2` | Warm Amber | Cozy orange-amber tint |
+| `3` | Soft Cyan | Cool studio cyan tint |
+| `4` | Mint | Soft mint green tint |
+| `5` | Lavender | Purple/lavender tint |
+| `6` | Rose | Warm pink tint |
+| `7` | Neutral Gray | Neutral brightness lift |
+
+---
+
+## 🌙 Low-Light Enhancement
+
+The program automatically detects dark scenes and boosts brightness. You can also:
+- Toggle auto boost with `b`
+- Manually adjust gain with `[` and `]`
+- Tune the background tint strength with `-` and `+`
+- See live scene brightness in the settings panel (`s`)
 
 ---
 
@@ -103,13 +138,14 @@ Hand_Gesture/
 │
 ├── hand_gesture.py          # Main script
 ├── hand_landmarker.task     # MediaPipe model file (download separately)
-└── README.md                # Project documentation
+├── README.md                # English documentation
+└── README_BN.md             # Bengali documentation
 ```
 
 ---
 
 ## 👥 Contributors
-## 👥 Contributors
+
 - [ANIKAOSDlang](https://github.com/ANIKAOSDlang)
 - [laboni1012](https://github.com/laboni1012)
 
