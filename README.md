@@ -109,8 +109,9 @@ Hand_Gesture/
 ---
 
 ## 👥 Contributors
-
+## 👥 Contributors
 - [ANIKAOSDlang](https://github.com/ANIKAOSDlang)
+- [laboni1012](https://github.com/laboni1012)
 
 ---
 
